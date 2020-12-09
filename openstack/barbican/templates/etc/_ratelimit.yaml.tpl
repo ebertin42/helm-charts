@@ -1,6 +1,7 @@
 # List of whitelisted scopes keys (domainName/projectName).
-whitelist:
-  - default/service
+whitelist_users:
+  - 2b323b93e64749c088e7fd63d2a557a2
+#  - default/service
 
 # Override default ratelimit response.
 ratelimit_response:
