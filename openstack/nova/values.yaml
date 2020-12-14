@@ -254,6 +254,7 @@ scheduler:
   # the prefer-same-host weigher should be able to overpower a worst-case combination of other weighers
   # (e.g. least ram available + slightly bad disk weight), so make it >= len(other_weighers)
   prefer_same_host_resize_weight_multiplier: 5.0
+  reserved_ram_threshold_for_resize: 10.0
 
 compute:
   defaults:
